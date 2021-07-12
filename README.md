@@ -1,6 +1,9 @@
 # Easy Banking System
 Full-stack application using Angular and Spring Boot.
 
+# Demo
+https://www.youtube.com/watch?v=gNpDUNhSynw
+
 # Stacks
 - Angular, Ngrx
 - Spring Boot
@@ -11,6 +14,10 @@ Full-stack application using Angular and Spring Boot.
 
 # Run
 ### Server
+
+Add password in application property file for below:
+# spring.datasource.password = 
+
 Run Spring Boot application server from root directory (default port 8080), but my configuration is port 8085.
 ```
 $ ./gradlew bootRun --stacktrace
@@ -36,8 +43,9 @@ $ ./gradlew bootRun -Pargs=--spring.profiles.active=prod
 ### Client
 To run Angular client, from root directory, go to client folder:
 ```
-$ cd front-end/shop-app
-$ ng serve -o
+Download zip file:  bank-app
+$ cd bank-app
+$ ng serve
 ```
 Default port for Angular is 4200.
 
@@ -46,3 +54,4 @@ To start MySQL server (default port 3306), run:
 ```
 $ mysql -u root -p
 ```
+
