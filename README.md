@@ -43,7 +43,7 @@ $ ./gradlew bootRun -Pargs=--spring.profiles.active=prod
 ### Client
 To run Angular client, from root directory, go to client folder:
 ```
-Download zip file:  bank-app
+Download zip file and unzip it :  bank-app
 $ cd bank-app
 $ npm install
 $ ng serve
