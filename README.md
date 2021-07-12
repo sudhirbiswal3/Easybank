@@ -45,6 +45,7 @@ To run Angular client, from root directory, go to client folder:
 ```
 Download zip file:  bank-app
 $ cd bank-app
+$ npm install
 $ ng serve
 ```
 Default port for Angular is 4200.
