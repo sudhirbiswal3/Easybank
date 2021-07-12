@@ -9,7 +9,7 @@ https://www.youtube.com/watch?v=gNpDUNhSynw
 - Spring Boot
 - Spring Restful
 - Spring Security with JWT
-- JPA, Hibernate
+- JPA
 - MySQL
 
 # Run
