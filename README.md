@@ -5,7 +5,7 @@ Full-stack application using Angular and Spring Boot.
 https://www.youtube.com/watch?v=gNpDUNhSynw
 
 # Stacks
-- Angular, Ngrx
+- Angular,Bootstrap, Ngrx
 - Spring Boot
 - Spring Restful
 - Spring Security with JWT
